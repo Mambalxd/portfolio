@@ -1,0 +1,121 @@
+body { 
+    background-color: black; 
+    width: auto;
+    height: auto;
+    
+} 
+ 
+.divNameSait p { 
+    color: gray;
+    text-align: center; 
+    font-size: 40px;
+}
+.content { 
+    /* background-color: aqua; */ 
+    width: auto; 
+    height: auto; 
+} 
+ 
+.nameCar { 
+    width: 950px; 
+    display: flex block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 100px; 
+    justify-content: space-between; 
+} 
+ 
+.nameCar button { 
+    width: 80px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    background-color: rgb(92, 92, 92); 
+     
+} 
+ 
+.nameCar button p { 
+    color: white; 
+    font-family: cursive; 
+} 
+ 
+.nameCar button:hover { 
+    transition: background-color 0.2s; 
+    background-color: rgb(139, 139, 139); 
+    border: none; 
+} 
+ 
+.nameCar button:active { 
+    background-color: #fff; 
+    transition: background-color 0s; 
+} 
+ 
+.card { 
+    margin-top: 40px; 
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    margin-left: auto; 
+    margin-right: auto; 
+    justify-content: space-between; 
+    /* background-color: rgb(255, 0, 234); */ 
+} 
+ 
+.card div { 
+    background-color: white; 
+    border-radius: 10px; 
+    cursor: pointer; 
+} 
+ 
+.card div:hover { 
+    transition: background-color 0.5s; 
+    background-color: rgb(139, 139, 139); 
+} 
+ 
+.card div p { 
+    color: black; 
+    font-size: 18px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} 
+ 
+.card div  strong{ 
+    background-color: green; 
+    border-radius: 5px; 
+    font-size: 20px; 
+ 
+} 
+ 
+.card img { 
+    border-radius: 20px; 
+    width: 300PX; 
+    padding: 10px; 
+} 
+ 
+.img img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px; 
+    width: 100%; 
+} 
+ 
+.img Img:hover { 
+    transition: opacity 0.8s; 
+    opacity: 0.8; 
+} 
+ 
+.paragraf { 
+    color: aliceblue; 
+    text-align: center; 
+    font-size: 50px; 
+ 
+} 
+ 
+.img p b { 
+    color: red; 
+} 
+ 
+.img1 p { 
+    color: rgb(153, 153, 153); 
+    text-align: center; 
+    font-size: 30px; 
+}
